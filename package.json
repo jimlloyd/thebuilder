@@ -1,0 +1,29 @@
+{
+  "name": "thebuilder",
+  "version": "1.0.0",
+  "description": "a tool for building projects",
+  "main": "bin/thebuilder.js",
+  "bin": {
+    "thebuilder": "thebuilder.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "thebuilder",
+    "cmake",
+    "ninja",
+    "git",
+    "build",
+    "tool"
+  ],
+  "author": "Jim Lloyd <jim.lloyd@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "chai": "^4.2.0",
+    "debug": "^4.1.1",
+    "git-client": "^1.7.1",
+    "lodash": "^4.17.15"
+  }
+}
