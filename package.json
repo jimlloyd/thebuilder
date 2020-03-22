@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "a tool for building projects",
   "main": "bin/thebuilder.js",
-  "bin": {
-    "thebuilder": "thebuilder.js"
-  },
+  "bin": "./bin/thebuilder.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
